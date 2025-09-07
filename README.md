@@ -1,75 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Kerala Web3 Scene</title>
-<style>
-  body { margin:0; overflow:hidden; background: #0d0d0d; }
-  canvas { display:block; }
-</style>
-</head>
-<body>
-<script src="https://cdn.jsdelivr.net/npm/three@0.157.0/build/three.min.js"></script>
-<script>
-// Scene, Camera, Renderer
-const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera(60, window.innerWidth/window.innerHeight, 0.1, 1000);
-const renderer = new THREE.WebGLRenderer({antialias:true});
-renderer.setSize(window.innerWidth, window.innerHeight);
-document.body.appendChild(renderer.domElement);
+# 🐺 Hi, I’m Shijas
+aka **cryptowolf07.eth** | Vibecoder | DeFi + NFT Explorer
 
-// Lighting
-const light = new THREE.PointLight(0xffffff, 1.5);
-light.position.set(50,50,50);
-scene.add(light);
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=4000&pause=800&color=22D3EE&width=800&lines=🌴+Building+Web3+from+Kerala;🚀+Onboarding+Web2+devs+into+Web3;🌀+6+Years+in+Crypto;🎯+Dream%3A+Kerala's+Web3+Leader)
 
-// Palm Tree (Cylinder + Sphere leaves)
-const trunkGeometry = new THREE.CylinderGeometry(0.5, 0.5, 10, 16);
-const trunkMaterial = new THREE.MeshStandardMaterial({color:0x8B4513});
-const trunk = new THREE.Mesh(trunkGeometry, trunkMaterial);
-trunk.position.y = 5;
-scene.add(trunk);
+---
 
-for(let i=0;i<5;i++){
-  const leafGeometry = new THREE.SphereGeometry(2, 16, 16);
-  const leafMaterial = new THREE.MeshStandardMaterial({color:0x22D3EE});
-  const leaf = new THREE.Mesh(leafGeometry, leafMaterial);
-  leaf.position.set(Math.random()*4-2, 10+Math.random()*2, Math.random()*4-2);
-  scene.add(leaf);
-}
+### 🌊 About Me
+- ⚡ 6+ years exploring **Crypto, DeFi & NFTs**
+- 🌴 Based in Kerala, riding the Web3 wave
+- 🛠️ Creating onchain games, bots & Farcaster miniapps
+- 🧩 Community builder → led **Base** & **Movement Labs** dev sessions
+- 🌟 Goal: Make **Kerala** a global Web3 hotspot
 
-// Floating ETH coins
-const coinGeometry = new THREE.TorusGeometry(0.3,0.1,16,100);
-const coinMaterial = new THREE.MeshStandardMaterial({color:0xFEE715});
-const coins = [];
-for(let i=0;i<20;i++){
-  const coin = new THREE.Mesh(coinGeometry, coinMaterial);
-  coin.position.set(Math.random()*20-10, Math.random()*15, Math.random()*20-10);
-  scene.add(coin);
-  coins.push(coin);
-}
+---
 
-camera.position.z = 25;
+### 🔧 Tech & Tools
+![Ethereum](https://img.shields.io/badge/-Ethereum-3C3C3D?logo=ethereum&logoColor=white)
+![Base](https://img.shields.io/badge/-Base-0052FF?logo=coinbase&logoColor=white)
+![Solidity](https://img.shields.io/badge/-Solidity-363636?logo=solidity&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=nodedotjs&logoColor=white)
+![Farcaster](https://img.shields.io/badge/-Farcaster-6F3AFF?logoColor=white)
+![Three.js](https://img.shields.io/badge/-Three.js-000000?logo=three.js&logoColor=white)
 
-// Animate scene
-function animate(){
-  requestAnimationFrame(animate);
-  coins.forEach(c => { 
-    c.position.y -= 0.05; 
-    if(c.position.y < 0) c.position.y = 15; 
-    c.rotation.x += 0.02; 
-    c.rotation.y += 0.02; 
-  });
-  renderer.render(scene, camera);
-}
-animate();
+---
 
-// Handle resize
-window.addEventListener('resize', ()=>{
-  camera.aspect = window.innerWidth/window.innerHeight;
-  camera.updateProjectionMatrix();
-  renderer.setSize(window.innerWidth, window.innerHeight);
-});
-</script>
-</body>
-</html>
+### 🌐 GitHub Stats
+![](https://github-readme-stats.vercel.app/api?username=Shijas786&show_icons=true&theme=radical&count_private=true)  
+![](https://github-readme-streak-stats.herokuapp.com/?user=Shijas786&theme=radical)  
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Shijas786&layout=compact&theme=radical)
+
+---
+
+### ✨ Animated Fun
+- **Snake animation (working):**  
+![Snake animation](https://raw.githubusercontent.com/anuraghazra/github-readme-stats/master/assets/animated-snake.svg)
+
+- **Hexagon Motion:**  
+![Hexagon animation](https://raw.githubusercontent.com/anuraghazra/github-readme-stats/master/assets/animated-hexagon.svg)
+
+- **Floating Crypto Feathers / Leaves:**  
+![Floating Crypto Feathers](https://raw.githubusercontent.com/yourusername/assets/main/crypto-feathers.svg)
+
+> **SVG Code for Floating Crypto Feathers:**  
+> Save this as `crypto-feathers.svg` in your repo under `/assets/`:
+```xml
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <circle cx="50" cy="0" r="4" fill="#22D3EE">
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="0,200" dur="6s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="100" cy="0" r="3" fill="#FBBF24">
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="0,200" dur="8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="150" cy="0" r="5" fill="#10B981">
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="0,200" dur="5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="75" cy="0" r="4" fill="#F472B6">
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="0,200" dur="7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="125" cy="0" r="3" fill="#EAB308">
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="0,200" dur="6.5s" repeatCount="indefinite" />
+    </circle>
+  </g>
+</svg>
+
