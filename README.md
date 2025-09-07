@@ -28,8 +28,12 @@ I'm **Shijas** (aka **cryptowolf07.eth**), a **Web3 builder** who's been explori
 
 # 💻 Tech Stack
 
-### 🧑‍💻 Smart Contracts & Web3
+### ⛓️ Web3 & Blockchains
 
+![Ethereum](https://img.shields.io/badge/Ethereum-627EEA?logo=ethereum&logoColor=white)
+![Solana](https://img.shields.io/badge/Solana-9945FF?logo=solana&logoColor=white)
+![Base](https://img.shields.io/badge/Base-0052FF?logo=coinbase&logoColor=white)
+![Arbitrum](https://img.shields.io/badge/Arbitrum-2D374B?logo=arbitrum&logoColor=white)
 ![Solidity](https://img.shields.io/badge/Solidity-363636?logo=solidity&logoColor=white)
 ![Hardhat](https://img.shields.io/badge/Hardhat-F7DF1E?logo=hardhat&logoColor=000)
 ![Foundry](https://img.shields.io/badge/Foundry-111111?logo=forge&logoColor=white)
@@ -47,12 +51,6 @@ I'm **Shijas** (aka **cryptowolf07.eth**), a **Web3 builder** who's been explori
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white)
-
-### ⛓️ Blockchains & Networks
-
-![Ethereum](https://img.shields.io/badge/Ethereum-627EEA?logo=ethereum&logoColor=white)
-![Base](https://img.shields.io/badge/Base-0052FF?logo=coinbase&logoColor=white)
-![Arbitrum](https://img.shields.io/badge/Arbitrum-2D374B?logo=arbitrum&logoColor=white)
 
 ### 🛠️ Tools & Platforms
 
