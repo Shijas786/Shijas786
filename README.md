@@ -2,7 +2,7 @@
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=4000&pause=800&color=22D3EE&width=800&lines=🌴+Building+Web3+from+Kerala;🚀+Onboarding+Web2+devs+into+Web3;🌀+6+Years+in+Crypto;🎯+Dream%3A+Kerala's+Web3+Leader)
 
-![Crypto Wolf](assets/crypto-wolf.gif)
+![PixeLɑnd](assets/PixeLɑnd%20◇.gif)
 
 ---
 
@@ -66,7 +66,7 @@ I'm **Shijas** (aka **cryptowolf07.eth**), a **Web3 builder** who's been explori
 
 | [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Shijas786&theme=gotham&hide_border=false&include_all_commits=true&count_private=true)](https://github.com/Shijas786) | [![GitHub Streak](https://streak-stats.demolab.com?user=Shijas786&theme=gotham&hide_border=false)](https://github.com/Shijas786) |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Shijas786&theme=gotham&hide_border=false&include_all_commits=true&count_private=true&layout=compact)](https://github.com/Shijas786) | ![Web3 Animation](assets/web3-animation.gif) |
+| [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Shijas786&theme=gotham&hide_border=false&include_all_commits=true&count_private=true&layout=compact)](https://github.com/Shijas786) | ![Blackhole](assets/blackhole.gif) |
 
 ---
 
