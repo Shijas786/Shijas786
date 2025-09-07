@@ -1,6 +1,5 @@
 # Welcome to my GitHub
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=4000&pause=800&color=22D3EE&width=800&lines=🌴+Building+Web3+from+Kerala;🚀+Onboarding+Web2+devs+into+Web3;🌀+6+Years+in+Crypto;🎯+Dream%3A+Kerala's+Web3+Leader)
 
 ![PixeLɑnd](assets/PixeLɑnd%20◇.gif)
 
