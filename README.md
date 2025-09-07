@@ -1,41 +1,75 @@
-# Hi, I’m Shijas 👋  
-aka **cryptowolf07.eth** 🐺 | Vibecoder | DeFi + NFT Explorer  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kerala Web3 Scene</title>
+<style>
+  body { margin:0; overflow:hidden; background: #0d0d0d; }
+  canvas { display:block; }
+</style>
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/three@0.157.0/build/three.min.js"></script>
+<script>
+// Scene, Camera, Renderer
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(60, window.innerWidth/window.innerHeight, 0.1, 1000);
+const renderer = new THREE.WebGLRenderer({antialias:true});
+renderer.setSize(window.innerWidth, window.innerHeight);
+document.body.appendChild(renderer.domElement);
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=22D3EE&width=700&lines=Building+Web3+from+Kerala+🌴;Onboarding+Web2+devs+into+Web3+🚀;6+years+in+Crypto+🌀;Dream%3A+Kerala's+Web3+community+leader)
+// Lighting
+const light = new THREE.PointLight(0xffffff, 1.5);
+light.position.set(50,50,50);
+scene.add(light);
 
----
+// Palm Tree (Cylinder + Sphere leaves)
+const trunkGeometry = new THREE.CylinderGeometry(0.5, 0.5, 10, 16);
+const trunkMaterial = new THREE.MeshStandardMaterial({color:0x8B4513});
+const trunk = new THREE.Mesh(trunkGeometry, trunkMaterial);
+trunk.position.y = 5;
+scene.add(trunk);
 
-### 🌍 About Me
-- ⚡ 6+ years in **Crypto / DeFi / NFTs**  
-- 🌴 Based in Kerala, building Web3 vibes  
-- 🛠️ Working on onchain games, bots, Farcaster miniapps  
-- 🧩 Community builder → ran **Base** & **Movement Labs** dev sessions  
-- 🎯 Dream: put **Kerala** on the global Web3 map  
+for(let i=0;i<5;i++){
+  const leafGeometry = new THREE.SphereGeometry(2, 16, 16);
+  const leafMaterial = new THREE.MeshStandardMaterial({color:0x22D3EE});
+  const leaf = new THREE.Mesh(leafGeometry, leafMaterial);
+  leaf.position.set(Math.random()*4-2, 10+Math.random()*2, Math.random()*4-2);
+  scene.add(leaf);
+}
 
----
+// Floating ETH coins
+const coinGeometry = new THREE.TorusGeometry(0.3,0.1,16,100);
+const coinMaterial = new THREE.MeshStandardMaterial({color:0xFEE715});
+const coins = [];
+for(let i=0;i<20;i++){
+  const coin = new THREE.Mesh(coinGeometry, coinMaterial);
+  coin.position.set(Math.random()*20-10, Math.random()*15, Math.random()*20-10);
+  scene.add(coin);
+  coins.push(coin);
+}
 
-### 🛠️ Tech & Tools
-![Ethereum](https://img.shields.io/badge/-Ethereum-3C3C3D?logo=ethereum&logoColor=white)
-![Base](https://img.shields.io/badge/-Base-0052FF?logo=coinbase&logoColor=white)
-![Solidity](https://img.shields.io/badge/-Solidity-363636?logo=solidity&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=nodedotjs&logoColor=white)
-![Farcaster](https://img.shields.io/badge/-Farcaster-6F3AFF?logoColor=white)
+camera.position.z = 25;
 
----
+// Animate scene
+function animate(){
+  requestAnimationFrame(animate);
+  coins.forEach(c => { 
+    c.position.y -= 0.05; 
+    if(c.position.y < 0) c.position.y = 15; 
+    c.rotation.x += 0.02; 
+    c.rotation.y += 0.02; 
+  });
+  renderer.render(scene, camera);
+}
+animate();
 
-### 📊 GitHub Stats
-![](https://github-readme-stats.vercel.app/api?username=Shijas786&show_icons=true&theme=radical)  
-![](https://github-readme-streak-stats.herokuapp.com/?user=Shijas786&theme=radical)  
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Shijas786&layout=compact&theme=radical)  
-
----
-
-### 🌀 Fun Stuff
-![Snake animation](https://github.com/Shijas786/Shijas786/blob/output/github-contribution-grid-snake.svg)
-
----
-
-### 🌐 Connect
-- 🌸 ENS: **cryptowolf07.eth**  
-- 🌐 Farcaster: [@cryptowolf07](#)  
-- 🐦 Twitter/X: [@cryptowolf07](#)  
+// Handle resize
+window.addEventListener('resize', ()=>{
+  camera.aspect = window.innerWidth/window.innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(window.innerWidth, window.innerHeight);
+});
+</script>
+</body>
+</html>
