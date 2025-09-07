@@ -1,33 +1,41 @@
-# 🌌 Hey, I’m Shijas — aka **CryptoWolf07.eth** 🐺
+# Hi, I’m Shijas 👋  
+aka **cryptowolf07.eth** 🐺 | Vibecoder | DeFi + NFT Explorer  
 
-<div align="center">
-
-✨ **VibeCoder** ✨ | 🛠️ **DeFi & NFT Explorer** | 🌍 **Kerala Web3 Community Builder**  
-
-![Typing SVG](https://readme-typing-svg.herokuapp.com?color=00F5D4&size=22&center=true&vCenter=true&width=600&lines=6+Years+in+Crypto;Building+Web3+Dreams;Onboarding+Web2+Devs+to+Web3;Pushing+DeFi+and+NFTs;Community+First;Future+is+Onchain)
-
-</div>
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=22D3EE&width=700&lines=Building+Web3+from+Kerala+🌴;Onboarding+Web2+devs+into+Web3+🚀;6+years+in+Crypto+🌀;Dream%3A+Kerala's+Web3+community+leader)
 
 ---
 
-## 🐺 My Web3 Identity  
-- ENS: **`CryptoWolf07.eth`**  
-- 6+ years deep in **crypto & DeFi** 🌊  
-- **NFT native** 🎨  
-- Known as **VibeCoder** — coding with vibes, not rules.  
+### 🌍 About Me
+- ⚡ 6+ years in **Crypto / DeFi / NFTs**  
+- 🌴 Based in Kerala, building Web3 vibes  
+- 🛠️ Working on onchain games, bots, Farcaster miniapps  
+- 🧩 Community builder → ran **Base** & **Movement Labs** dev sessions  
+- 🎯 Dream: put **Kerala** on the global Web3 map  
 
 ---
 
-## 🌍 What I’m Building  
-- Onboarding **Web2 devs → Web3 builders** ⚡  
-- Hosting **IRL Kerala meetups & workshops** 🇮🇳  
-- Dream: become the **most trusted Web3 community leader in Kerala**  
+### 🛠️ Tech & Tools
+![Ethereum](https://img.shields.io/badge/-Ethereum-3C3C3D?logo=ethereum&logoColor=white)
+![Base](https://img.shields.io/badge/-Base-0052FF?logo=coinbase&logoColor=white)
+![Solidity](https://img.shields.io/badge/-Solidity-363636?logo=solidity&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=nodedotjs&logoColor=white)
+![Farcaster](https://img.shields.io/badge/-Farcaster-6F3AFF?logoColor=white)
 
 ---
 
-## ⚡ Tech & Tools I Vibe With  
-```bash
-Languages:  Solidity, JavaScript, TypeScript, Python
-Frameworks: React, Next.js, Express
-Web3:       ethers.js, wagmi, hardhat, foundry
-Other:      Supabase, Firebase, AI (Claude, OpenAI)
+### 📊 GitHub Stats
+![](https://github-readme-stats.vercel.app/api?username=Shijas786&show_icons=true&theme=radical)  
+![](https://github-readme-streak-stats.herokuapp.com/?user=Shijas786&theme=radical)  
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Shijas786&layout=compact&theme=radical)  
+
+---
+
+### 🌀 Fun Stuff
+![Snake animation](https://github.com/Shijas786/Shijas786/blob/output/github-contribution-grid-snake.svg)
+
+---
+
+### 🌐 Connect
+- 🌸 ENS: **cryptowolf07.eth**  
+- 🌐 Farcaster: [@cryptowolf07](#)  
+- 🐦 Twitter/X: [@cryptowolf07](#)  
