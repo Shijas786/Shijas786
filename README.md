@@ -15,12 +15,12 @@ aka **cryptowolf07.eth** | Vibecoder | DeFi + NFT Explorer
 ---
 
 ### 🔧 Tech & Tools
-![Ethereum](https://img.shields.io/badge/-Ethereum-3C3C3D?logo=ethereum&logoColor=white)
-![Base](https://img.shields.io/badge/-Base-0052FF?logo=coinbase&logoColor=white)
-![Solidity](https://img.shields.io/badge/-Solidity-363636?logo=solidity&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white)
+![Cursor](https://img.shields.io/badge/-Cursor-000000?logo=cursor&logoColor=white)
+![Vercel](https://img.shields.io/badge/-Vercel-000000?logo=vercel&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL-4479A1?logo=sql&logoColor=white)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=nodedotjs&logoColor=white)
 ![Farcaster](https://img.shields.io/badge/-Farcaster-6F3AFF?logoColor=white)
-![Three.js](https://img.shields.io/badge/-Three.js-000000?logo=three.js&logoColor=white)
 
 ---
 
@@ -32,28 +32,13 @@ aka **cryptowolf07.eth** | Vibecoder | DeFi + NFT Explorer
 ![Hexagon animation](https://raw.githubusercontent.com/anuraghazra/github-readme-stats/master/assets/animated-hexagon.svg)
 
 - **Floating Crypto Feathers / Leaves:**  
-![Floating Crypto Feathers](https://raw.githubusercontent.com/yourusername/assets/main/crypto-feathers.svg)
+<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGc+PGNpcmNsZSBjeD0iNTAiIGN5PSIwIiByPSI0IiBmaWxsPSIjMjJEM0VFIj48YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InRyYW5zbGF0ZSIgZnJvbT0iMCwwIiB0bz0iMCwyMDAiIGR1cj0iNnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIi8+PC9jaXJjbGU+PGNpcmNsZSBjeD0iMTAwIiBjeT0iMCIgcj0iMyIgZmlsbD0iI0ZGQkYyNCI+PGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJ0cmFuc2xhdGUiIGZyb209IjAsMCIgdG89IjAsMjAwIiBkdXI9IjhzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIvPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjE1MCIgY3k9IjAiIHI9IjUiIGZpbGw9IiMxMEI5ODEiPjxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0idHJhbnNsYXRlIiBmcm9tPSIwLDAiIHRvPSIwLDIwMCIgZHVyPSI1cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L2NpcmNsZT48Y2lyY2xlIGN4PSI3NSIgY3k9IjAiIHI9IjQiIGZpbGw9IiNGNDcyQjYiPjxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0idHJhbnNsYXRlIiBmcm9tPSIwLDAiIHRvPSIwLDIwMCIgZHVyPSI3cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L2NpcmNsZT48Y2lyY2xlIGN4PSIxMjUiIGN5PSIwIiByPSIzIiBmaWxsPSIjRUFCMzA4Ij48YW5pbWF0ZVRyYW5zZm9ybSBhdHRyaWJ1dGVOYW1lPSJ0cmFuc2Zvcm0iIHR5cGU9InRyYW5zbGF0ZSIgZnJvbT0iMCwwIiB0bz0iMCwyMDAiIGR1cj0iNi41cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz48L2NpcmNsZT48L2c+PC9zdmc+" alt="Floating Crypto Feathers" width="200"/>
 
-> **SVG Code for Floating Crypto Feathers:**  
-> Save this as `crypto-feathers.svg` in your repo under `/assets/`:
-```xml
-<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <g>
-    <circle cx="50" cy="0" r="4" fill="#22D3EE">
-      <animateTransform attributeName="transform" type="translate" from="0,0" to="0,200" dur="6s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="100" cy="0" r="3" fill="#FBBF24">
-      <animateTransform attributeName="transform" type="translate" from="0,0" to="0,200" dur="8s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="150" cy="0" r="5" fill="#10B981">
-      <animateTransform attributeName="transform" type="translate" from="0,0" to="0,200" dur="5s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="75" cy="0" r="4" fill="#F472B6">
-      <animateTransform attributeName="transform" type="translate" from="0,0" to="0,200" dur="7s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="125" cy="0" r="3" fill="#EAB308">
-      <animateTransform attributeName="transform" type="translate" from="0,0" to="0,200" dur="6.5s" repeatCount="indefinite" />
-    </circle>
-  </g>
-</svg>
+---
+
+### 🌐 Connect
+- 🌸 ENS: **cryptowolf07.eth**  
+- 🌐 Farcaster: [@cryptowolf07](#)  
+- 🐦 Twitter/X: [@cryptowolf07](#)  
+- 💬 Discord: `cryptowolf07#9999`
 
