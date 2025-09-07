@@ -24,13 +24,6 @@ aka **cryptowolf07.eth** | Vibecoder | DeFi + NFT Explorer
 
 ---
 
-### 🌐 GitHub Stats
-![](https://github-readme-stats.vercel.app/api?username=Shijas786&show_icons=true&theme=radical&count_private=true)  
-![](https://github-readme-streak-stats.herokuapp.com/?user=Shijas786&theme=radical)  
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Shijas786&layout=compact&theme=radical)
-
----
-
 ### ✨ Animated Fun
 - **Snake animation (working):**  
 ![Snake animation](https://raw.githubusercontent.com/anuraghazra/github-readme-stats/master/assets/animated-snake.svg)
