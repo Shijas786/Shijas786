@@ -5,23 +5,7 @@
 
 ---
 
-## 🌌 Who am I?
 
-I'm **Shijas** (aka **cryptowolf07.eth**), a **Web3 builder** who's been exploring the crypto space for over 6 years.
-
-🚀 My biggest passion lies in **Building onchain games, bots & Farcaster miniapps** - I want to make Web3 accessible and fun for everyone.  
-💡 I enjoy turning wild crypto ideas into working products, transforming _"what if we could...?"_ into _"look, it's live onchain!"_.  
-🌠 Beyond coding, I'm deeply fascinated by **DeFi protocols, NFT mechanics, and social onchain experiences** \- the intersection of technology and human interaction.  
-📖 I love building **community** - whether it's organizing Kerala Web3 meetups or teaching devs their first onchain transaction.  
-🎮 In my free time, you'll either catch me **vibecoding** or **mentoring** the next generation of Web3 builders.
-
-## 🔥 What Drives Me
-
-* ⚡ The thrill of **shipping onchain products** that real people actually use
-* 🌱 A constant hunger to **learn, experiment, and grow** in the Web3 space - every day brings new protocols to explore
-* 🛠️ The joy of building **mini-apps** that start as wild ideas and end as live onchain experiences
-* 🤝 **Teaching and onboarding** Web2 devs into Web3 - making Kerala a global Web3 hotspot
-* 🌌 A deep curiosity about **programmable money** and how it can reshape how we interact digitally
 
 ---
 
